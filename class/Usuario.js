@@ -7,7 +7,6 @@ class Usuario {
         this.email = email
         this.#ativo = false
         Usuario.totalUsuarios++
-        
     }
 
     get ativo() {
@@ -33,5 +32,6 @@ class Usuario {
         console.log(`Total de usuários criados: ${Usuario.totalUsuarios}`)
     } 
 }
+
 
 module.exports = Usuario
